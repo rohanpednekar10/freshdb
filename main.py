@@ -2,7 +2,7 @@ import freshdb
 import json
 
 datastore = freshdb.get_instance(file_name="data")
-key = "Whiteflies"
+key = "Fly"
 value = {
     "value": "Mayflies"
 }

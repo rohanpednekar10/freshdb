@@ -38,7 +38,7 @@ Note: When `file_path` and `file_name` is provided in the get_instance() call, i
 
 ```python
 
-key = "Whiteflies"
+key = "Fly"
 value = {
     "value": "Mayflies"
 }
@@ -56,7 +56,7 @@ Note: `ttl` should be of type `int`. It represents Time-To-Live property in mill
 
 ```python
 
-key = "Whiteflies"
+key = "Fly"
 
 print(datastore.get(key))
 
@@ -68,7 +68,7 @@ print(datastore.get(key))
 
 ```python
 
-key = "Whiteflies"
+key = "Fly"
 
 datastore.delete(key)
 
